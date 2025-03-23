@@ -8,31 +8,12 @@
     - state: syndicate
     - state: icon-syndicate
   - type: ItemBorgModule
+    moduleId: SyndicateWeaponAdvanced
     items:
     - WeaponPistolAnaconda
     - EnergySword
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: syndicate-weapon-module }
-
-- type: entity
-  id: BorgModuleOperativeUniversal
-  parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule, BaseSyndicateContraband ]
-  name: operative cyborg module
-  description: A module that comes with a crowbar, an Emag, an Access Breaker and a syndicate pinpointer.
-  suffix: Universal Pinpointer
-  components:
-  - type: Sprite
-    layers:
-    - state: syndicate
-    - state: icon-syndicate
-  - type: ItemBorgModule
-    items:
-    - Crowbar
-    - Emag
-    - AccessBreaker
-    - PinpointerSyndicateNuclearUniversal
-  - type: BorgModuleIcon
-    icon: { sprite: Interface/Actions/actions_borg.rsi, state: syndicate-operative-module }
 
 - type: entity
   id: BorgModuleLollipop
@@ -45,6 +26,7 @@
     - state: generic
     - state: icon-lollypop
   - type: ItemBorgModule
+    moduleId: Lollipop
     items:
     - LauncherLollypopRegenerating
     - LauncherLollypopRegeneratingTricordazine
@@ -62,8 +44,9 @@
     layers:
     - state: cargo
     - state: icon-pka
-  - type: ItemBorgModule
-    droppableItems:
+  - type: DroppableBorgModule
+    moduleId: PKA
+    items:
     - id: WeaponProtoKineticAccelerator
       whitelist:
         components:
