@@ -5,6 +5,9 @@
   prototype: MobGingerbread
   sprites: MobGingerbreadSprites
   markingLimits: MobHumanMarkingLimits
+  maleFirstNames: cookieFirst
+  femaleFirstNames: cookieFirst
+  lastNames: cookieLast
   dollPrototype: MobGingerbreadDummy
   skinColoration: HumanToned
   defaultSkinTone: "#9a7c5a"
@@ -13,6 +16,7 @@
   id: MobGingerbreadSprites
   sprites:
     Head: MobGingerbreadHead
+    Hair: MobHumanoidAnyMarking
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
     Chest: MobGingerbreadTorso

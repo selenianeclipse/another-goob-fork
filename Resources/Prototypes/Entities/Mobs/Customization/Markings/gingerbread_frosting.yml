@@ -1,0 +1,8 @@
+- type: marking
+  id: frostingRosyCheeks
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Gingerbread]
+  sprites:
+  - sprite: Mobs/Customization/gingerbread_frosting.rsi
+    state: rosycheeks

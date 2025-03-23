@@ -29,6 +29,7 @@ job-description-hop = Handle access reassignment fairly using your ID console, m
 job-description-hos = Manage your security force and keep them efficient, quell dissent, and keep the other heads of staff safe.
 job-description-intern = Learn the basics of administering medicine, basic chemicals and using medical tools.
 job-description-janitor = Keep the station clean of any trash or slipping hazards, and help deal with rat infestations.
+job-description-maid = Clean up after Command, ensure the Station is being properly maintained in all departments, and act as Command's defense and secretary.
 job-description-lawyer = Ensure that every prisoner or criminal receives a fair judgment and trial if necessary.
 job-description-librarian = Manage the library, give out knowledge to any who seek it, and report on activities aboard the station.
 job-description-mime = Entertain the crew without speaking or writing, and engage with light rivalry with the clown.

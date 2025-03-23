@@ -1104,6 +1104,22 @@
   inhand:
   - MopItem
   - Bucket
+  
+- type: startingGear
+  id: VisitorMaid
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitJanitor
+    shoes: ClothingShoesGaloshes
+    gloves: ClothingHandsGlovesJanitor
+    head: ClothingHeadFishCap
+    id: VisitorPDA
+    back: ClothingBackpackSatchel
+    belt: ClothingBeltJanitorFilled
+    ears: ClothingHeadsetService
+    outerClothing: ClothingOuterWinterJani
+  inhand:
+  - MopItem
+  - Bucket
 
 - type: startingGear
   id: VisitorJanitorAlt

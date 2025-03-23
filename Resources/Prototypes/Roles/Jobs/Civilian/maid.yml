@@ -1,0 +1,29 @@
+- type: job
+  id: Maid
+  name: job-name-maid
+  description: job-description-maid
+  playTimeTracker: JobJanitor
+  startingGear: JanitorGear
+  icon: "JobIconJanitor"
+  supervisors: job-supervisors-allcommand
+  goobcoins: 25 #Goob content
+  access:
+  - Service
+  - Janitor
+  - Maintenance
+  - Security
+  - Medical
+  - Command
+- special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+- type: startingGear
+  id: MaidGear
+  equipment:
+    shoes: ClothingShoesGaloshes
+    id: JanitorPDA
+    ears: ClothingHeadsetService
+    belt: ClothingBeltJanitorFilled

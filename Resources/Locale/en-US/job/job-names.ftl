@@ -30,6 +30,7 @@ job-name-lawyer = Lawyer
 job-name-mime = Mime
 job-name-ce = Chief Engineer
 job-name-janitor = Janitor
+job-name-maid = Maid
 job-name-chaplain = Chaplain
 job-name-botanist = Botanist
 job-name-bartender = Bartender

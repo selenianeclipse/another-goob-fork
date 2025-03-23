@@ -3,7 +3,6 @@
   name: job-name-centcomoff
   description: job-description-centcomoff
   playTimeTracker: JobCentralCommandOfficial
-  setPreference: false
   startingGear: CentcomGear
   icon: "JobIconNanotrasen"
   supervisors: job-supervisors-centcom # Goobstation
@@ -26,7 +25,7 @@
     shoes: ClothingShoesBootsJackFilled # Change this if you want, I don't really care.
     head: ClothingHeadHatCentcomcap # Lets be real, the other hat looks like steaming ASS.
     eyes: ClothingEyesGlassesCentComm # Goobstation
-    gloves: ClothingHandsGlovesCombat # Goobstation - Replace with goldtrims when made.
+    gloves: ClothingHandsGlovesGoldenTrim # Goobstation - Replace with goldtrims when made.
     back: ClothingBackpackSatchelLeather # Goobstation - Officials need bags too!
     outerClothing: ClothingOuterArmorCentcommCarapace # Officials shouldn't use shitty armor, Nanotrasen is richer than that.
     neck: ExecutiveIDCard # Executive Access!

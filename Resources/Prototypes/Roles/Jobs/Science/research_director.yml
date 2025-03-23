@@ -13,7 +13,7 @@
   startingGear: ResearchDirectorGear
   icon: "JobIconResearchDirector"
   supervisors: job-supervisors-captain
-  canBeAntag: false
+  canBeAntag: true
   goobcoins: 40 #Goob content
   access:
   - Research
