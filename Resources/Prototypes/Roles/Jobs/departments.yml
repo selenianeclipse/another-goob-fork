@@ -12,26 +12,17 @@
   id: Civilian
   name: department-Civilian
   description: department-Civilian-description
-  color: "#9FED58"
+  color: "#a3a3a3"
   weight: -10
   roles:
-  - Bartender
-  - Botanist
   - Boxer
   - Chaplain
-  - Chef
   - Clown
-  - HeadOfPersonnel
-  - Janitor
-  - Lawyer
-  - Librarian
   - Mime
   - Musician
-  - Passenger
   - Reporter
   - Visitor
   - Zookeeper
-  - ServiceWorker
 
 - type: department
   id: CentralCommand
@@ -40,6 +31,9 @@
   color: "#0c344d"
   roles:
   - CentralCommandOfficial
+  - NanotrasenRepresentative  # Goobstation
+  - BlueshieldOfficer # Goobstation
+  # these ones are disabled still -steve
   - CBURN
   - ERTLeader
   - ERTChaplain
@@ -49,9 +43,13 @@
   - ERTEngineer
   - DeathSquad
   - HecuOperative
+<<<<<<< Updated upstream
   - BlueshieldOfficer # Goobstation
   - NanotrasenRepresentative # Goobstation
   editorHidden: true
+=======
+  editorHidden: false
+>>>>>>> Stashed changes
   weight: 120
 
 - type: department
@@ -60,6 +58,7 @@
   description: department-Command-description
   color: "#334E6D"
   roles:
+#  - CentralCommandOfficial
   - Captain
   - ChiefEngineer
   - ChiefMedicalOfficer
@@ -67,9 +66,9 @@
   - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
-  - BlueshieldOfficer # Goobstation
-  - NanotrasenRepresentative # Goobstation
-  - CentralCommandOfficial
+#  - NanotrasenRepresentative # Goobstation
+#  - Maid
+  # still quite disabled -steve
   - CBURN
   - ERTLeader
   - ERTChaplain
@@ -104,7 +103,7 @@
   - MedicalDoctor
   - MedicalIntern
   - Psychologist
-  - Paramedic
+#  - Paramedic (entirely unneeded lmao)
 
 - type: department
   id: Security
@@ -118,6 +117,7 @@
   - SecurityOfficer
   - Detective
   - Warden
+  - Lawyer
 
 - type: department
   id: Science
@@ -137,16 +137,33 @@
   roles:
   - Borg
   - StationAi
+  
+- type: department
+  id: Service
+  name: department-Service
+  description: department-Service-description
+  color: "#9FED58"
+  weight: 9
+  roles:
+  - HeadOfPersonnel
+  - Botanist
+  - Chef
+  - Bartender
+  - Janitor
+  - Librarian
+  - ServiceWorker
 
 - type: department
-  id: Specific
-  name: department-Specific
-  description: department-Specific-description
-  color: "#9FED58"
-  weight: 10
+  id: Assistance
+  name: department-Assistance
+  description: department-Assistance-description
+  color: "#a18672"
+  weight: 9
   roles:
-  - Boxer
-  - Reporter
-  - Zookeeper
-  - Psychologist
-  primary: false
+  - ServiceWorker
+  - SecurityCadet
+  - ResearchAssistant
+  - MedicalIntern
+  - TechnicalAssistant
+  - Passenger
+ 
