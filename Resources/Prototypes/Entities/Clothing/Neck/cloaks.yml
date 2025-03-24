@@ -206,6 +206,29 @@
 
 - type: entity
   parent: ClothingNeckBase
+  id: ClothingNeckCloakAttacus
+  name: attacus lightweaver fursuit
+  description: A certain immortal man's fursona. It cost well over a thousand dollars to make.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/attacus.rsi
+  - type: ToggleableClothing # Goobstation - Modsuits change
+    clothingPrototypes: 
+      head: ClothingHeadHatHoodAttacus
+    requiredSlot:
+    - neck
+  - type: UserInterface
+    interfaces:
+      enum.ToggleClothingUiKey.Key:
+        type: ToggleableClothingBoundUserInterface
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:Container {}
+  - type: TypingIndicatorClothing
+    proto: attacusfursuit
+    
+- type: entity
+  parent: ClothingNeckBase
   id: ClothingNeckCloakVoid
   name: void cloak
   description: A cloak of darkness. For those who have gone to the dark side of the force.

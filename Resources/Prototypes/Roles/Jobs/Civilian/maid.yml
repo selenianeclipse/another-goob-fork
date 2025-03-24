@@ -24,7 +24,8 @@
 - type: startingGear
   id: MaidGear
   equipment:
-    shoes: ClothingShoesGaloshes
+    shoes: ClothingShoesSecurityGaloshes
     id: JanitorPDA
     ears: ClothingHeadsetService
     belt: ClothingBeltJanitorFilled
+    gloves: ClothingHandsSecurityMaidGloves

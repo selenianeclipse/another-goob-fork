@@ -285,6 +285,20 @@
     fiberColor: fibers-black
 
 - type: entity
+  parent: ClothingHandsGlovesCombat
+  id: ClothingHandsSecurityMaidGloves
+  name: security maid gloves
+  description: Gloves for a maid; one fully capable of sending you to an early grave.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/securitymaidgloves.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/securitymaidgloves.rsi
+  - type: Insulated
+  - type: Fiber
+    fiberColor: fibers-black
+
+- type: entity
   parent: [ BaseSecurityCargoContraband, ClothingHandsGlovesCombat ]
   id: ClothingHandsMercGlovesCombat
   name: mercenary combat gloves
