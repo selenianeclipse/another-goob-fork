@@ -189,6 +189,20 @@
     Shock: 1.2
 
 - type: damageModifierSet
+  id: Spirit
+  coefficients:
+    Blunt: 0.5
+    Slash: 0.5
+    Heat: 1.5
+    Shock: 1.5
+    Cold: 0.2
+    Poison: 0.0
+    Radiation: 0.0
+    Asphyxiation: 0.0
+    Bloodloss: 0.0
+    Cellular: 0.0
+
+- type: damageModifierSet
   id: Moth # Slightly worse at everything but cold
   coefficients:
     Cold: 0.7

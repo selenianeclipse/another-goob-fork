@@ -1,0 +1,104 @@
+# this file is fully reorganized by shitmed
+- type: entity
+  abstract: true
+  parent: BasePartInorganic
+  id: PartSpiritBase
+  name: spirit body part
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Spirit/parts.rsi
+  - type: Icon
+    sprite: Mobs/Species/Spirit/parts.rsi
+  - type: Destructible # Shitmed Change: Let blunt weapons break bones
+    thresholds:
+    - trigger: !type:DamageTypeTrigger
+        damageType: Blunt
+        damage: 110
+      behaviors:
+      - !type:GibPartBehavior
+  - type: BodyPart
+    species: Spirit # Shitmed Change
+  - type: StaticPrice
+    price: 20
+  - type: Tag
+    tags:
+    - Trash
+
+- type: entity
+  parent: [ PartSpiritBase, BaseTorsoInorganic ]
+  id: TorsoSpirit
+  name: spirit torso
+
+- type: entity
+  parent: [ PartSpiritBase, BaseHead ]
+  id: HeadSpirit
+  name: skull
+  description: Alas poor Yorick...
+  components:
+  - type: Sprite
+    state: "skull_icon"
+  - type: Icon
+    state: "skull_icon"
+  - type: Input
+    context: "human"
+  - type: Speech
+    speechVerb: Spirit
+  - type: Actions
+  - type: Vocal
+    sounds:
+      Male: Skeleton
+      Female: Skeleton
+      Unsexed: Skeleton
+  - type: Emoting
+  - type: Grammar
+    attributes:
+      proper: true
+  - type: Examiner
+  - type: DoAfter
+  - type: MobState
+    allowedStates:
+    - Alive
+  - type: Tag
+    tags:
+    - MindTransferTarget
+    - Head
+
+- type: entity
+  parent: [ PartSpiritBase, BaseLeftArm ]
+  id: LeftArmSpirit
+  name: "left Spirit arm"
+
+- type: entity
+  parent: [ PartSpiritBase, BaseRightArm ]
+  id: RightArmSpirit
+  name: "right spirit arm"
+
+- type: entity
+  parent: [ PartSkeletonBase, BaseLeftHand ]
+  id: LeftHandSkeleton
+  name: "left spirit hand"
+
+- type: entity
+  parent: [ PartSkeletonBase, BaseRightHand ]
+  id: RightHandSkeleton
+  name: "right spirit hand"
+
+- type: entity
+  parent: [ PartSpiritBase, BaseLeftLeg ]
+  id: LeftLegSpirit
+  name: "left spirit leg"
+
+- type: entity
+  parent: [ PartSpiritBase, BaseRightLeg ]
+  id: RightLegSpirit
+  name: "right spirit leg"
+
+- type: entity
+  parent: [ PartSpiritBase, BaseLeftFoot ]
+  id: LeftFootSpirit
+  name: "left spirit foot"
+
+- type: entity
+  parent: [ PartSpiritBase, BaseRightFoot ]
+  id: RightFootSpirit
+  name: "right spirit foot"
