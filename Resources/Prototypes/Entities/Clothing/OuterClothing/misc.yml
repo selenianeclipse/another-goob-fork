@@ -179,6 +179,19 @@
       - WhitelistChameleon
       - SyringeArmor
 
+- type: entity
+  abstract: true
+  parent: [ClothingMultiOuterHatBase, BaseMagicContraband]
+  id: ClothingOuterWizardryVessel
+  suffix: Wizard Clothes # Goobstation
+  components:
+  - type: WizardClothes
+  - type: Tag # Goobstation
+    tags:
+    - WizardHat
+    - ClothMade
+    - WhitelistChameleon
+
 # Is this wizard wearing a fanny pack???
 - type: entity
   parent: ClothingOuterBase # Goob edit

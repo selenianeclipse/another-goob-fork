@@ -28,7 +28,7 @@
   id: CentralCommand
   name: department-CentralCommand
   description: department-CentralCommand-description
-  color: "#0c344d"
+  color: "#007a0e"
   roles:
   - CentralCommandOfficial
   - NanotrasenRepresentative  # Goobstation
@@ -43,13 +43,7 @@
   - ERTEngineer
   - DeathSquad
   - HecuOperative
-<<<<<<< Updated upstream
-  - BlueshieldOfficer # Goobstation
-  - NanotrasenRepresentative # Goobstation
-  editorHidden: true
-=======
   editorHidden: false
->>>>>>> Stashed changes
   weight: 120
 
 - type: department
@@ -67,7 +61,6 @@
   - ResearchDirector
   - Quartermaster
 #  - NanotrasenRepresentative # Goobstation
-#  - Maid
   # still quite disabled -steve
   - CBURN
   - ERTLeader
@@ -117,7 +110,7 @@
   - SecurityOfficer
   - Detective
   - Warden
-  - Lawyer
+  - Maid
 
 - type: department
   id: Science
@@ -143,7 +136,7 @@
   name: department-Service
   description: department-Service-description
   color: "#9FED58"
-  weight: 9
+  weight: 10
   roles:
   - HeadOfPersonnel
   - Botanist
@@ -152,6 +145,7 @@
   - Janitor
   - Librarian
   - ServiceWorker
+  - Lawyer
 
 - type: department
   id: Assistance

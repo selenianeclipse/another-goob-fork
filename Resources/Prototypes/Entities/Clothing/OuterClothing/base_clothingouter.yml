@@ -11,6 +11,18 @@
 
 - type: entity
   abstract: true
+  parent: Clothing
+  id: ClothingMultiOuterHatBase
+  components:
+  - type: Clothing
+    slots:
+    - outerClothing
+    - HEAD
+  - type: Sprite
+    state: icon
+
+- type: entity
+  abstract: true
   parent: ClothingOuterBase
   id: ClothingOuterBaseLarge
   components:

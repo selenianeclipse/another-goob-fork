@@ -9,6 +9,9 @@
 
 - type: playTimeTracker
   id: JobBartender
+  
+- type: playTimeTracker
+  id: JobMaid
 
 - type: playTimeTracker # Used as a tracker for all borgs and midround borging.
   id: JobBorg

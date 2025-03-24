@@ -2,9 +2,9 @@
   id: Maid
   name: job-name-maid
   description: job-description-maid
-  playTimeTracker: JobJanitor
+  playTimeTracker: JobMaid
   startingGear: JanitorGear
-  icon: "JobIconJanitor"
+  icon: "JobIconMaid"
   supervisors: job-supervisors-allcommand
   goobcoins: 25 #Goob content
   access:
@@ -14,12 +14,13 @@
   - Security
   - Medical
   - Command
-- special:
-  - !type:AddImplantSpecial
-    implants: [ MindShieldImplant ]
-  - !type:AddComponentSpecial
-    components:
-      - type: CommandStaff
+  special:
+    - !type:AddImplantSpecial
+        implants: [ MindShieldImplant ]
+    - !type:AddComponentSpecial
+        components:
+            - type: CommandStaff
+      
 - type: startingGear
   id: MaidGear
   equipment:

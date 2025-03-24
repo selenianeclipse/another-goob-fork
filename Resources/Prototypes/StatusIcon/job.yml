@@ -12,6 +12,14 @@
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: Detective
   jobName: job-name-detective
+  
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconMaid
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Maid
+  jobName: job-name-maid  
 
 - type: jobIcon
   parent: JobIcon
