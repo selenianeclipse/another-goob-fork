@@ -153,6 +153,12 @@ loadout-group-warden-head = Warden head
 loadout-group-warden-jumpsuit = Warden jumpsuit
 loadout-group-warden-outerclothing = Warden outer clothing
 
+loadout-group-maid-head = Maid head
+loadout-group-maid-jumpsuit = Maid jumpsuit
+loadout-group-maid-outerclothing = Maid outer clothing
+loadout-group-maid-shoes = Maid shoes
+loadout-group-maid-gloves = Maid gloves
+
 loadout-group-security-head = Security head
 loadout-group-security-jumpsuit = Security jumpsuit
 loadout-group-security-backpack = Security backpack

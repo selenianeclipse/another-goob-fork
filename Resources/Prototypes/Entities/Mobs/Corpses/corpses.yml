@@ -70,6 +70,7 @@
     - SecurityOfficerGear
     - DetectiveGear
     - WardenGear
+    - MaidGear
 
 - type: entity
   parent: SalvageHumanCorpse

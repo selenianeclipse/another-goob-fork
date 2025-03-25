@@ -1,0 +1,11 @@
+- type: entity
+  parent: [ClothingUniformSkirtBase, BaseSecurityContraband]
+  id: ClothingUniformSkirtMaidSec
+  name: security maid uniform
+  description: Surprisingly comfortable. Just ignore the tedious process of tying that apron..
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/securitymaid.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/securitymaid.rsi
+    

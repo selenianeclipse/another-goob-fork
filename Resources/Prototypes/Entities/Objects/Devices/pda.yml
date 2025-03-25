@@ -614,6 +614,25 @@
     borderColor: "#5D2D56"
   - type: Icon
     state: pda-janitor
+    
+- type: entity
+  parent: BaseSecurityPDA
+  id: MaidPDA
+  name: maid PDA
+  description: Smells like a crime clean-up.
+  components:
+  - type: Pda
+    id: MaidIDCard
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-maid
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+    accentVColor: "#949137"
+  - type: Icon
+    state: pda-maid
 
 - type: entity
   parent: BasePDA

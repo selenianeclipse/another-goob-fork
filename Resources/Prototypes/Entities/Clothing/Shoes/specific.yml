@@ -131,22 +131,39 @@
   - type: Clothing
     sprite: Clothing/Shoes/Specific/securitygaloshes.rsi
   - type: NoSlip
-    walkModifier: 0.9
-    sprintModifier: 1.2
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.5
+  - type: ClothingModifyStunTime # Goobstation
+    modifier: 0.8
+  - type: ModifyStandingUpTime # Goobstation
+    multiplier: 0.5
 
 - type: entity
   parent: [ ClothingShoesBase ]
   id: ClothingShoesSecurityHeels
-  name: security heels and stockings
+  name: security heels and socks
   description: Good thing they're specifically noslip heels, right? Don't ask how that works.
   components:
+  - type: MeleeWeapon
+    damage:
+      types:
+        Piercing: 6
   - type: Sprite
     sprite: Clothing/Shoes/Specific/securityheels.rsi
   - type: Clothing
     sprite: Clothing/Shoes/Specific/securityheels.rsi
   - type: NoSlip
-    walkModifier: 0.9
-    sprintModifier: 1.2
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.5
+  - type: ClothingModifyStunTime # Goobstation
+    modifier: 0.8
+  - type: ModifyStandingUpTime # Goobstation
+    multiplier: 0.5
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: FootstepHighHeels
+      params:
+        variation: 0.09
 
 - type: entity
   parent: [ClothingShoesBaseButcherable, BaseMajorContraband]

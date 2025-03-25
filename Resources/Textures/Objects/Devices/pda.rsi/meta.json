@@ -114,6 +114,9 @@
     {
       "name": "pda-miner"
     },
+	{
+      "name": "pda-maid"
+    },
     {
       "name": "pda-pirate"
     },

@@ -1047,6 +1047,45 @@
   - WardenArmoredWinterCoat
 
 - type: loadoutGroup
+  id: MaidHead
+  name: loadout-group-maid-head
+  minLimit: 0
+  loadouts:
+  - SecurityBeret
+
+- type: loadoutGroup
+  id: MaidJumpsuit
+  name: loadout-group-maid-jumpsuit
+  loadouts:
+  - WardenJumpsuit # temporary until butler outfit is finished
+  - MaidJumpskirt
+
+- type: loadoutGroup
+  id: MaidOuterClothing
+  name: loadout-group-maid-outerclothing
+  loadouts:
+  - ArmorVest
+  - SecurityOfficerWintercoat
+  - MaidApron
+  
+- type: loadoutGroup
+  id: MaidShoes
+  name: loadout-group-maid-shoes
+  loadouts:
+  - MaidGaloshes
+  - MaidHeels
+  - JackBoots
+  - SecurityWinterBoots
+
+- type: loadoutGroup
+  id: MaidGloves
+  minLimit: 0
+  name: loadout-group-maid-gloves
+  loadouts:
+  - MaidCombatGloves
+  - MaidGlovesAlt
+
+- type: loadoutGroup
   id: SecurityHead
   name: loadout-group-security-head
   minLimit: 0

@@ -185,6 +185,33 @@
     coverage: EYES
 
 - type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons, BaseSecurityContraband]
+  id: ClothingEyesVisorSecurity
+  name: security visor
+  description: Visor with a security hud and flash protection. Just a little cooler than sunglasses, right?
+  components:
+  - type: Sprite
+    sprite: Clothing/Eyes/Glasses/secvisor.rsi
+  - type: Clothing
+    sprite: Clothing/Eyes/Glasses/secvisor.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+#  - type: Construction # i'm just too lazy rn dawg. add sec visor craft later
+#    graph: GlassesSecHUD
+#    node: glassesSec
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - WhitelistChameleon
+  - type: GuideHelp
+    guides:
+    - Security
+    - Antagonists
+  - type: IdentityBlocker
+    coverage: EYES
+
+- type: entity
   parent: [ClothingEyesBase, BaseCommandContraband]
   id: ClothingEyesGlassesCommand
   name: administration glasses

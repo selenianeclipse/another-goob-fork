@@ -91,6 +91,9 @@
     {
       "name": "idheadofpersonnel"
     },
+	{
+      "name": "idmaid"
+    },
     {
       "name": "idheadofsecurity"
     },

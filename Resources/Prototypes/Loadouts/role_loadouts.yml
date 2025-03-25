@@ -367,6 +367,20 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  
+- type: roleLoadout
+  id: JobMaid
+  groups:
+  - MaidHead
+  - MaidJumpsuit
+  - SecurityBackpack
+  - MaidOuterClothing
+  - MaidShoes
+  - SurvivalSecurity
+  - MaidGloves
+  - Trinkets
+  - SecurityStar
+  - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
   id: JobSecurityOfficer

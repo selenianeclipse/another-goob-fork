@@ -27,15 +27,8 @@
       prototypes: [ VisitorCaptain, VisitorCaptainAlt ]
       roleLoadout: [ RoleSurvivalStandard ]
       
-- type: randomHumanoidSettings
-  id: VisitorMaid
-  parent: VisitorHead
-  components:
-    - type: GhostRole
-      name: job-name-maid
-    - type: Loadout
-      prototypes: [ VisitorMaid ]
-      roleLoadout: [ RoleSurvivalStandard ]
+# - type: randomHumanoidSettings
+#  id: VisitorMaid (for later)
 
 - type: randomHumanoidSettings
   id: VisitorCE

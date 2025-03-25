@@ -21,6 +21,24 @@
   background: /Textures/LobbyScreens/clownassassin.webp
   name: Clown Assassin
   artist: ka2220
+  
+- type: lobbyBackground
+  id: fruitlamp
+  background: /Textures/LobbyScreens/fruitlamp.webp
+  name: Fruit Lamp
+  artist: calamitycoalesce
+  
+- type: lobbyBackground
+  id: coryhope
+  background: /Textures/LobbyScreens/coryhope.webp
+  name: coryhope
+  artist: grumpin / karmen
+
+- type: lobbyBackground
+  id: toxicyaoi
+  background: /Textures/LobbyScreens/toxicyaoi.webp
+  name: Toxic Yaoi
+  artist: grumpin
 
 - type: lobbyBackground
   id: clownhell

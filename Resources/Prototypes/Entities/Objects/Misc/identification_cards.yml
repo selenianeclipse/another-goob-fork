@@ -296,6 +296,18 @@
 
 - type: entity
   parent: IDCardStandard
+  id: MaidIDCard
+  name: maid ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: default
+        - state: idmaid
+    - type: PresetIdCard
+      job: Maid
+
+- type: entity
+  parent: IDCardStandard
   id: BartenderIDCard
   name: bartender ID card
   components:

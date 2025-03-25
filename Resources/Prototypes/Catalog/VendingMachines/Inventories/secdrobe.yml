@@ -5,7 +5,9 @@
     ClothingBackpackSatchelSecurity: 3
     ClothingBackpackDuffelSecurity: 3
     ClothingUniformJumpsuitSec: 3
+    ClothingUniformSkirtMaidSec: 3
     ClothingShoesBootsJack: 3
+    ClothingShoesSecurityGaloshes: 2
     ClothingHeadHatBeretSecurity: 3
     ClothingHeadHatSecsoft: 3
     ClothingHeadBandRed: 3
@@ -13,6 +15,7 @@
     ClothingMaskNeckGaiterRed: 3
     ClothingHandsGlovesColorBlack: 3
     ClothingHandsGlovesFingerless: 3
+    ClothingHandsSecurityMaidGloves: 3
     ClothingUniformJumpskirtSec: 3
     ClothingUniformJumpsuitSecGrey: 3
     ClothingUniformJumpskirtSecGrey: 3
@@ -20,10 +23,12 @@
     ClothingHeadsetAltSecurityRegular: 3 # Goobstation
     ClothingOuterWinterSec: 2
     ClothingOuterArmorBasic: 2
+    ClothingOuterSecurityApron: 2
     ClothingNeckScarfStripedRed: 3
     ClothingOuterArmorBasicSlim: 2
     ClothingEyesBlindfold: 1
     ClothingShoesBootsCombat: 1
+    ClothingShoesSecurityHeels: 1
     ClothingShoesBootsWinterSec: 2
     ClothingHeadHelmetJustice: 1
     ClothingHeadHelmetBasic: 2

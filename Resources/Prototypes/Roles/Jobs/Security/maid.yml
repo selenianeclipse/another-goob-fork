@@ -1,0 +1,42 @@
+- type: job
+  id: Maid
+  name: job-name-maid
+  description: job-description-maid
+  playTimeTracker: JobMaid
+  requirements:
+    - !type:RoleTimeRequirement
+      role: JobSecurityOfficer
+      time: 18000 #5 hrs
+    - !type:RoleTimeRequirement
+      role: JobJanitor
+      time: 18000 #5 hrs
+  startingGear: MaidGear
+  icon: "JobIconMaid"
+  supervisors: job-supervisors-hos
+  goobcoins: 25 #Goob content
+  access:
+  - Service
+  - Janitor
+  - Maintenance
+  - Detective
+  - Armory
+  - Security
+  - Command
+      
+- type: startingGear
+  id: MaidGear
+  equipment:
+    id: MaidPDA
+    ears: ClothingHeadsetSecurity
+    eyes: ClothingEyesVisorSecurity
+    pocket1: WeaponDisabler
+  storage:
+    back:
+    - CleanerGrenade
+    - CleanerGrenade
+    - Flash
+    - SecHypo # Goobstation
+    - ClothingMaskGasSecurity # Goobstation
+  inhand:
+  - MopItem # placeholder until mopscythe is finished
+  - Bucket
