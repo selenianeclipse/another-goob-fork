@@ -1,0 +1,69 @@
+# Jumpsuit
+- type: loadout
+  id: CouncilJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCaptain
+
+- type: loadout
+  id: CouncilJumpskirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCaptain
+
+- type: loadout
+  id: CouncilFormalSuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCapFormal
+
+- type: loadout
+  id: CouncilFormalSkirt
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtCapFormalDress
+
+# Head
+- type: loadout
+  id: CouncilHead
+  equipment:
+    head: ClothingHeadHatCaptain
+
+- type: loadout
+  id: CouncilCap
+  equipment:
+    head: ClothingHeadHatCapcap
+
+# Neck
+- type: loadout
+  id: CouncilCloak
+  equipment:
+    neck: ClothingNeckCloakCap
+
+- type: loadout
+  id: CouncilCloakFormal
+  equipment:
+    neck: ClothingNeckCloakCapFormal
+
+# Back
+- type: loadout
+  id: CouncilBackpack
+  equipment:
+    back: ClothingBackpackCaptain
+
+- type: loadout
+  id: CouncilSatchel
+  equipment:
+    back: ClothingBackpackSatchelCaptain
+
+- type: loadout
+  id: CouncilDuffel
+  equipment:
+    back: ClothingBackpackDuffelCaptain
+
+# Outer clothing
+- type: loadout
+  id: CouncilOuterClothing
+  equipment:
+    outerClothing: ClothingOuterArmorCaptainCarapace
+
+- type: loadout
+  id: CouncilWintercoat
+  equipment:
+    outerClothing: ClothingOuterWinterCap

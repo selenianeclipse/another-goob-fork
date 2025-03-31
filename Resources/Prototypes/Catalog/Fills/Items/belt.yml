@@ -203,6 +203,20 @@
         - id: WeaponRevolverInspector
 
 - type: entity
+  parent: ClothingBeltWaistHolster
+  id: ClothingBeltWaistHolsterFilled
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+        - id: Stunbaton
+        - id: Handcuffs
+        - id: Handcuffs
+        - id: HoloprojectorSecurity
+        - id: RadioHandheldSecurity
+        - id: WeaponDisabler
+
+- type: entity
   id: ClothingBeltChefFilled
   parent: ClothingBeltChef
   suffix: Filled

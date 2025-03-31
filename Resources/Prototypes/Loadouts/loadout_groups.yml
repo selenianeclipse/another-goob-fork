@@ -96,7 +96,20 @@
   loadouts:
   - LoadoutSpeciesPocketDoubleNitrogen
   - LoadoutSpeciesPocketDoubleOxygen
+# Councilor
 
+- type: loadoutGroup
+  id: a
+  name: b
+  loadouts:
+  - C
+
+- type: loadoutGroup
+  id: a
+  name: b
+  loadouts:
+  - C
+  
 # Command
 - type: loadoutGroup
   id: CaptainHead
@@ -1057,7 +1070,7 @@
   id: MaidJumpsuit
   name: loadout-group-maid-jumpsuit
   loadouts:
-  - WardenJumpsuit # temporary until butler outfit is finished
+  - MaidJumpsuit # temporary until butler outfit is finished
   - MaidJumpskirt
 
 - type: loadoutGroup
@@ -1067,6 +1080,7 @@
   - ArmorVest
   - SecurityOfficerWintercoat
   - MaidApron
+  - MaidVest
   
 - type: loadoutGroup
   id: MaidShoes
@@ -1120,6 +1134,7 @@
   id: SecurityBelt
   name: loadout-group-security-belt
   loadouts:
+  - SecurityHolster
   - SecurityBelt
   - SecurityWebbing
   - SecurityJudoBelt # Goobstation - Martial Arts

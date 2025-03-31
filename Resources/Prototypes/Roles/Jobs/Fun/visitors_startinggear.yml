@@ -1105,8 +1105,36 @@
   - MopItem
   - Bucket
   
-#- type: startingGear
-#  id: VisitorMaid (for later)
+- type: startingGear
+  id: VisitorMaid
+  equipment:
+    jumpsuit: ClothingUniformSkirtMaidSec
+    shoes: ClothingShoesSecurityHeels
+    eyes: ClothingEyesVisorSecurity
+    gloves: ClothingHandsSecurityMaidGloves
+    id: VisitorPDA
+    back: ClothingBackpack
+    belt: ClothingBeltWaistHolsterFilled
+    ears: ClothingHeadsetSecurity
+    outerClothing: ClothingOuterSecurityApron
+  inhand:
+  - MopScythe
+  - Bucket
+  
+- type: startingGear
+  id: VisitorMaidAlt
+  equipment:
+    jumpsuit: ClothingUniformSkirtMaidSec # replace with butler fit
+    shoes: ClothingShoesSecurityGaloshes
+    eyes: ClothingEyesVisorSecurity
+    gloves: ClothingHandsGlovesCombat
+    id: VisitorPDA
+    back: ClothingBackpack
+    belt: ClothingBeltWaistHolsterFilled
+    ears: ClothingHeadsetSecurity
+  inhand:
+  - MopScythe
+  - Bucket
 
 - type: startingGear
   id: VisitorJanitorAlt

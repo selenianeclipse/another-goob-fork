@@ -114,6 +114,11 @@
     belt: ClothingBeltSecurityFilled
 
 - type: loadout
+  id: SecurityHolster
+  equipment:
+    belt: ClothingBeltWaistHolsterFilled
+
+- type: loadout
   id: SecurityWebbing
   equipment:
     belt: ClothingBeltSecurityWebbingFilled

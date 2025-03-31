@@ -14,3 +14,4 @@ job-supervisors-science = Scientists and the Research Director
 job-supervisors-hire = whoever hires you
 job-supervisors-everyone = absolutely everyone
 job-supervisors-allcommand = all Department Heads
+job-supervisors-none = absolutely no one

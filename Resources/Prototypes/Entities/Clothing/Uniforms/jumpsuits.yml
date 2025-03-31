@@ -678,6 +678,17 @@
     sprite: Clothing/Uniforms/Jumpsuit/overalls.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/overalls.rsi
+    
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformSecurityButler
+  name: security butler uniform
+  description: For the guys who can't rock a dress.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/securitybutler.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/securitybutler.rsi
 
 - type: entity
   parent: ClothingUniformBase

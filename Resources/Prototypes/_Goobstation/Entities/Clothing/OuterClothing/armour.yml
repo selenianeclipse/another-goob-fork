@@ -195,3 +195,7 @@
         Slash: 0
         Piercing: 0
         Heat: 0
+  - type: PointLight
+    radius: 1.5
+    energy: 3.5
+    color: "#3399ff"

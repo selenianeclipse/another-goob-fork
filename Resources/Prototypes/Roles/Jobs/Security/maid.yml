@@ -29,14 +29,13 @@
     id: MaidPDA
     ears: ClothingHeadsetSecurity
     eyes: ClothingEyesVisorSecurity
-    pocket1: WeaponDisabler
+    pocket1: CleanerGrenade
+    pocket2: SprayBottleSpaceCleaner
   storage:
     back:
-    - CleanerGrenade
-    - CleanerGrenade
     - Flash
     - SecHypo # Goobstation
     - ClothingMaskGasSecurity # Goobstation
   inhand:
-  - MopItem # placeholder until mopscythe is finished
+  - MopScythe
   - Bucket

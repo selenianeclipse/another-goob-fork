@@ -11,6 +11,13 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+  
+- type: roleLoadout
+  id: JobCouncilor
+  groups:
+  - Survival
+  - Trinkets
+  - GroupSpeciesBreathTool
 
 - type: roleLoadout
   id: JobHeadOfPersonnel
@@ -375,6 +382,7 @@
   - MaidJumpsuit
   - SecurityBackpack
   - MaidOuterClothing
+  - SecurityBelt
   - MaidShoes
   - SurvivalSecurity
   - MaidGloves

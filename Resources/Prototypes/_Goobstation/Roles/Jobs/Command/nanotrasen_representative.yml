@@ -12,7 +12,7 @@
   weight: 20
   startingGear: NanotrasenRepresentativeGear
   icon: "JobIconNanotrasenRepresentative"
-  requireAdminNotify: true
+  requireAdminNotify: false
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
   canBeAntag: false

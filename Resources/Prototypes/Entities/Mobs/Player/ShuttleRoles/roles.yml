@@ -148,6 +148,19 @@
     - type: AutoImplant
       implants:
       - MindShieldImplant
+      
+- type: entity
+  id: RandomHumanoidVisitorMaid
+  name: visiting maid ghost role
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: maid
+    - type: RandomHumanoidSpawner
+      settings: VisitorMaid
+    - type: AutoImplant
+      implants:
+      - MindShieldImplant
 
 # Cargo
 

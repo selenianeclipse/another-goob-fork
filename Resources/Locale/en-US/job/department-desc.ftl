@@ -2,7 +2,7 @@
 department-Civilian-description = Perform small tasks that improve quality of life.
 department-Assistance-description = Learn about departments, assist higher ranks with tasks, and follow orders.
 department-Command-description = Lead your designated department and keep the shift productive.
-department-CentralCommand-description = Manage the crew and report back to CenCom.
+department-CentralCommand-description = Manage the crew and report back to CenCom, if designated to do so.
 department-Engineering-description = Keep the power on and the station operational.
 department-Medical-description = Keep the crew healthy.
 department-Security-description = Keep the peace around the station.

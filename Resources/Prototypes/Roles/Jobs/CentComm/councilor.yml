@@ -1,0 +1,39 @@
+- type: job
+  id: Councilor
+  name: job-name-councilor
+  description: job-description-councilor
+  playTimeTracker: JobCouncilor
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: CentralCommand
+      time: 3600000  #1000 hours # its not like we actually use role timers lmao. if anyone actually wants to fork this role i suggest more like 50 hours like nanorep or making it admin only lmao
+    - !type:AgeRequirement
+      requiredAge: 21
+  startingGear: CouncilGear
+  icon: "JobIconNanotrasen"
+  supervisors: job-supervisors-none # Goobstation
+  joinNotifyCrew: true
+  canBeAntag: false
+  accessGroups:
+  - AllAccess
+  access:
+  - CentralCommand
+  # Goobstation
+  - NanotrasenRepresentative
+  - BlueshieldOfficer
+
+- type: startingGear
+  id: CouncilGear
+  equipment:
+    eyes: ClothingEyesGlassesCentComm
+    gloves: ClothingHandsGlovesHeavyGoldenTrim
+    outerClothing: ClothingOuterArmourInvisible
+    id: CentcomPDA #replace when council pda is done
+    ears: ClothingHeadsetAltCentCom
+    pocket1: WeaponPistolCentcommAgent
+    pocket2: AmnestizineHypospray
+  storage:
+    back:
+    - OmnizineChemistryBottle
+    - DoorRemoteAll
+    - WeaponDisabler

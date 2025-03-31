@@ -30,7 +30,8 @@
   description: department-CentralCommand-description
   color: "#007a0e"
   roles:
-  - CentralCommandOfficial
+  # - CentralCommandOfficial # replacing with councilor
+  - Councilor
   - NanotrasenRepresentative  # Goobstation
   - BlueshieldOfficer # Goobstation
   # these ones are disabled still -steve
