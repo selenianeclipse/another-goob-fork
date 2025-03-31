@@ -145,6 +145,7 @@
   - CaptainBackpack
   - CaptainSatchel
   - CaptainDuffel
+  - CaptainMessenger # Frontier
 
 - type: loadoutGroup
   id: CaptainOuterClothing
@@ -183,6 +184,7 @@
   - CommonBackpack
   - CommonSatchel
   - CommonDuffel
+  - CommonMessenger # Frontier
   - HoPBackpackIan
 
 - type: loadoutGroup
@@ -240,6 +242,7 @@
   - CommonBackpack
   - CommonSatchel
   - CommonDuffel
+  - CommonMessenger # Frontier
 
 - type: loadoutGroup
   id: PassengerNeck
@@ -460,6 +463,7 @@
   - BotanistBackpack
   - BotanistSatchel
   - BotanistDuffel
+  - BotanistMessenger # Frontier
 
 - type: loadoutGroup
   id: BotanistOuterClothing
@@ -493,6 +497,7 @@
   - ClownBackpack
   - ClownSatchel
   - ClownDuffel
+  - ClownMessenger # Frontier
 
 - type: loadoutGroup
   id: ClownOuterClothing
@@ -550,6 +555,7 @@
   - MimeBackpack
   - MimeSatchel
   - MimeDuffel
+  - MimeMessenger # Frontier
 
 - type: loadoutGroup
   id: MimeOuterClothing
@@ -692,6 +698,7 @@
   - CargoTechnicianBackpack
   - CargoTechnicianSatchel
   - CargoTechnicianDuffel
+  - CargoTechnicianMessenger # Frontier
 
 - type: loadoutGroup
   id: CargoTechnicianOuterClothing
@@ -715,6 +722,7 @@
   - SalvageSpecialistBackpack
   - SalvageSpecialistSatchel
   - SalvageSpecialistDuffel
+  - SalvageSpecialistMessenger # Frontier
 
 - type: loadoutGroup
   id: SalvageSpecialistOuterClothing
@@ -807,6 +815,7 @@
   - StationEngineerBackpack
   - StationEngineerSatchel
   - StationEngineerDuffel
+  - StationEngineerMessenger # Frontier
 
 - type: loadoutGroup
   id: StationEngineerOuterClothing
@@ -862,6 +871,7 @@
   - AtmosphericTechnicianBackpack
   - AtmosphericTechnicianSatchel
   - AtmosphericTechnicianDuffel
+  - AtmosphericTechnicianMessenger # Frontier
 
 - type: loadoutGroup
   id: AtmosphericTechnicianShoes
@@ -954,6 +964,7 @@
   - ScientistBackpack
   - ScientistSatchel
   - ScientistDuffel
+  - ScientistMessenger # Frontier
 
 - type: loadoutGroup
   id: ScientistOuterClothing
@@ -1129,6 +1140,7 @@
   - SecurityBackpack
   - SecuritySatchel
   - SecurityDuffel
+  - SecurityMessenger # Frontier
 
 - type: loadoutGroup
   id: SecurityBelt
@@ -1302,6 +1314,7 @@
   - MedicalDoctorBackpack
   - MedicalDoctorSatchel
   - MedicalDoctorDuffel
+  - MedicalDoctorMessenger # Frontier
 
 - type: loadoutGroup
   id: MedicalShoes
@@ -1364,6 +1377,7 @@
   - ChemistBackpack
   - ChemistSatchel
   - ChemistDuffel
+  - ChemistMessenger # Frontier
 
 - type: loadoutGroup
   id: ParamedicHead
