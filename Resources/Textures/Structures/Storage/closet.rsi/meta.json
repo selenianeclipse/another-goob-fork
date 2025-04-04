@@ -35,6 +35,9 @@
       "name": "brigmedic"
     },
     {
+      "name": "largebunker_door"
+    },
+    {
       "name": "armory"
     },
     {
@@ -51,6 +54,9 @@
     },
     {
       "name": "atmos_open"
+    },
+    {
+      "name": "eng_plasma_door"
     },
     {
       "name": "atmos_wardrobe_door"
@@ -150,6 +156,15 @@
     },
     {
       "name": "cargo_open"
+    },
+    {
+      "name": "maid"
+    },
+    {
+      "name": "maid_door"
+    },
+    {
+      "name": "maid_open"
     },
     {
       "name": "ce"

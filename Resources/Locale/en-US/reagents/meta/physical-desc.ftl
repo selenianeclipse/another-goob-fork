@@ -1,6 +1,8 @@
 reagent-physical-desc-soapy = soapy
 reagent-physical-desc-ferrous = ferrous
 reagent-physical-desc-nothing = nothing
+reagent-physical-desc-malform = malformed
+reagent-physical-desc-superbad = utterly horrible
 reagent-physical-desc-acrid = acrid
 reagent-physical-desc-thick-and-grainy = thick and grainy
 reagent-physical-desc-necrotic = necrotic

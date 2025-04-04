@@ -163,3 +163,13 @@
         amount: 2
       - id: ClothingOuterSuitHEV
         prob: 0.05
+        
+- type: entity
+  id: LockerEngineerPlasmaFilled
+  parent: LockerEngineerPlasma
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+      - id: PlasmaTankFilled
+        amount: 20

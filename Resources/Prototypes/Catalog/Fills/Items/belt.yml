@@ -215,7 +215,20 @@
         - id: HoloprojectorSecurity
         - id: RadioHandheldSecurity
         - id: WeaponDisabler
-
+        
+- type: entity
+  parent: ClothingBeltWaistHolster
+  id: ClothingBeltWaistHolsterCouncilFilled
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+        - id: WeaponPistolCouncil
+        - id: MagazinePistolTranquil
+        - id: MagazinePistolCyanide
+        - id: WeaponDisabler
+        - id: Stunbaton
+        
 - type: entity
   id: ClothingBeltChefFilled
   parent: ClothingBeltChef

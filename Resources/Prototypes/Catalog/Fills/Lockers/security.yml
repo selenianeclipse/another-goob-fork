@@ -81,9 +81,13 @@
       - id: ClothingHeadHelmetBasic
       - id: ClothingOuterArmorBasic
       - id: ClothingBeltSecurityFilled
+      - id: ClothingBeltWaistHolsterFilled
+        prob: 0.3
       - id: ClothingBeltCorporateJudoFilled # Goobstation - Martial Arts
       - id: Flash
         prob: 0.5
+      - id: ClothingEyesVisorSecurity
+        prob: 0.3
       - id: ClothingEyesGlassesSecurity
       - id: ClothingHeadsetAltSecurityRegular # Goobstation
       - id: ClothingHandsGlovesColorBlack
@@ -263,3 +267,43 @@
       amount: 3
     - id: WeaponTemperatureGun # Goobstation
       amount: 2
+
+# make this into maid locker
+- type: entity
+  id: LockerMaidFilled
+  suffix: Filled
+  parent: LockerMaid
+  components:
+  - type: StorageFill
+    contents:
+      - id: FlashlightSeclite
+      - id: ClothingUniformSecurityButler
+      - id: ClothingUniformSkirtMaidSec
+      - id: ClothingOuterSecurityApron
+      - id: Bucket
+        amount: 2
+      - id: BoxCleanerGrenades
+        amount: 2
+      - id: BoxSpaceCleaner
+        amount: 2
+      - id: TrashBagBlue
+        amount: 3
+      - id: WetFloorSign
+        amount: 3
+      - id: ClothingBeltWaistHolsterFilled
+      - id: Flash
+        prob: 0.5
+      - id: ClothingEyesVisorSecurity
+        prob: 0.3
+      - id: ClothingUniformSkirtLustMaid
+        prob: 0.1
+      - id: ClothingHeadsetAltSecurityRegular # Goobstation
+      - id: ClothingHandsGlovesColorBlack
+      - id: ClothingShoesSecurityGaloshes
+      - id: HoloprojectorSecurity
+      - id: Holoprojector
+        prob: 0.6
+      - id: SoapNT
+        prob: 0.3
+      - id: BookSpaceLaw
+        prob: 0.5

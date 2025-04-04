@@ -7,6 +7,15 @@ reagent-desc-dylovene = A broad-spectrum anti-toxin, which treats toxin damage i
 reagent-name-diphenhydramine = diphenhydramine
 reagent-desc-diphenhydramine = Rapidly purges the body of histamine, reduces jitteriness, and treats poison damage.
 
+reagent-name-ichorubizine = ichorubizine
+reagent-desc-ichorubizine = Cures and violently purges the body of all SROS cells, leaving the body weak and frail.
+
+reagent-name-sros = synthetic rapid omnisarcoma
+reagent-desc-sros = A liquid comprised of chemically altered cancer cells. Gives a sort of pseudo-immortality, at the cost of severe, lifelong mental degradation and physical stagnation.
+
+reagent-name-nulltoxin = nullifier toxin
+reagent-desc-nulltoxin = The remaining chemicals produced by SROS interacting with Ichorubizine. Causes horrible, agonizing pain even without SROS.
+
 reagent-name-arithrazine = arithrazine
 reagent-desc-arithrazine = A mildly unstable medication used for the most extreme case of radiation poisoning. Exerts minor stress on the body.
 

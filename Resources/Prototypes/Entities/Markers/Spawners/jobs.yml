@@ -299,6 +299,19 @@
 # Command
 
 - type: entity
+  id: SpawnPointCouncilor
+  parent: SpawnPointJobBase
+  name: councilor
+  components:
+  - type: SpawnPoint
+    job_id: Councilor
+  - type: Sprite
+    layers:
+      - state: green
+      - state: centcom
+
+
+- type: entity
   id: SpawnPointCaptain
   parent: SpawnPointJobBase
   name: captain

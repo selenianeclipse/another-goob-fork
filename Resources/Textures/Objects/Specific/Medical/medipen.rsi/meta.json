@@ -16,6 +16,12 @@
     {
       "name": "firstaid"
     },
+	{
+      "name": "hyperpen"
+    },
+    {
+      "name": "hyperpen_empty"
+    },
     {
       "name": "firstaid_empty"
     },

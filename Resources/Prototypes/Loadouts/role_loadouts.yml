@@ -15,6 +15,12 @@
 - type: roleLoadout
   id: JobCouncilor
   groups:
+  - CouncilHead
+  - CouncilNeck
+  - CouncilJumpsuit
+  - CouncilBackpack
+  - CouncilOuterClothing
+  - CouncilShoes
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool

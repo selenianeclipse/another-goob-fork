@@ -33,6 +33,7 @@
     { "name": "unlocked" },
     { "name": "welded" },
     { "name": "white_door" },
-    { "name": "yellow_door" }
+    { "name": "yellow_door" },
+    { "name": "bunker_door" }
   ]
 }

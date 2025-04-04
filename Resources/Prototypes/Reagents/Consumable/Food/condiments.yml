@@ -36,6 +36,23 @@
   flavor: oily
   color: yellow
   recognizable: true
+  
+- type: reagent
+  id: HynesConcoction
+  name: reagent-name-badsubstance
+  group: Foods
+  desc: reagent-desc-badsubstance
+  physicalDesc: reagent-physical-desc-superbad
+  flavor: terribad
+  color: gray
+  recognizable: false
+  metabolisms:
+    Poison:
+      effects:
+        - !type:HealthChange
+          damage:
+            types:
+              Poison: 2
 
 - type: reagent
   id: HorseradishSauce

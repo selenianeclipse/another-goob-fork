@@ -158,6 +158,19 @@
     stateDoorClosed: eng_secure_door
   - type: AccessReader
     access: [ [ "Engineering" ] ]
+    
+- type: entity
+  id: LockerEngineerPlasma
+  parent: LockerBase
+  name: plasma tank locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: eng_secure
+    stateDoorOpen: eng_secure_open
+    stateDoorClosed: eng_plasma_door
+  - type: AccessReader
+    access: [ [ "Engineering" ] ]
 
 # Freezer
 - type: entity
@@ -329,6 +342,19 @@
     stateDoorClosed: warden_door
   - type: AccessReader
     access: [["Armory"]]
+    
+- type: entity
+  id: LockerMaid
+  parent: LockerBaseSecure
+  name: maid's locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: maid
+    stateDoorOpen: maid_open
+    stateDoorClosed: maid_door
+  - type: AccessReader
+    access: [["Security"]]
 
 # Brigmedic
 - type: entity
@@ -488,3 +514,33 @@
     stateBaseClosed: hop
     stateDoorOpen: hop_open
     stateDoorClosed: representative_door
+
+# Bunker
+
+- type: entity
+  id: LockerBunker
+  parent: LockerBaseSecure
+  name: bunker closet
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: secure
+    stateDoorOpen: secure_open
+    stateDoorClosed: largebunker_door
+    
+# im gonna be honest i cannot be fucking bothered rn
+
+- type: entity
+  id: LockerBunkerFilled
+  parent: LockerBunker
+  name: bunker closet
+  suffix: Filled
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: secure
+    stateDoorOpen: secure_open
+    stateDoorClosed: largebunker_door
+  - type: StorageFill
+    contents:
+    - id: Flash

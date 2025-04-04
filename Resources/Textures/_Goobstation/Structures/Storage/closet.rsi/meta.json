@@ -26,6 +26,15 @@
       "name": "ntr_open"
     },
 	{
+      "name": "council"
+    },
+    {
+      "name": "council_door"
+    },
+    {
+      "name": "council_open"
+    },
+	{
       "name": "generic"
     },
     {

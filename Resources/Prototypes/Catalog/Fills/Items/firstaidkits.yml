@@ -112,3 +112,16 @@
     contents:
       - id: StimpackMini
         amount: 6
+
+# make this into ipc kit + give it custom sprite that is Yellow (note you need to make the empty box too lmao. maybe add a welding mask and remove 1 of the batteries)
+- type: entity
+  id: MedkitIPCFilled
+  suffix: Filled
+  parent: MedkitIPC
+  components:
+  - type: StorageFill
+    contents:
+      - id: PowerCellMedium
+      - id: ClothingHeadHatWelding
+      - id: Welder
+      - id: CableApcStack

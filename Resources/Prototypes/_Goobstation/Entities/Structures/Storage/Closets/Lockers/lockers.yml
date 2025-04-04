@@ -27,3 +27,48 @@
     stateBaseClosed: ntr
     stateDoorOpen: ntr_open
     stateDoorClosed: ntr_door
+    
+- type: entity
+  id: LockerCouncilor
+  name: councilor locker
+  parent: LockerBaseSecure
+  components:
+  - type: Appearance
+  - type: Sprite
+    sprite: _Goobstation/Structures/Storage/closet.rsi
+  - type: AccessReader
+    access: [["CentralCommand"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: council
+    stateDoorOpen: council_open
+    stateDoorClosed: council_door
+    
+- type: entity
+  id: ClosetWallBunker
+  parent: BaseWallCloset
+  name: bunker wall closet
+  description: "A storage unit packed with an assortment of survival items."
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: generic
+    stateDoorOpen: generic_open
+    stateDoorClosed: bunker_door
+    
+# i still cannot be bothered im sorry
+- type: entity
+  id: ClosetWallBunkerFilled
+  parent: ClosetWallBunker
+  name: bunker wall closet
+  suffix: Filled
+  description: "A storage unit packed with an assortment of survival items."
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: generic
+    stateDoorOpen: generic_open
+    stateDoorClosed: bunker_door
+  - type: StorageFill
+    contents:
+    - id: Flash
+   

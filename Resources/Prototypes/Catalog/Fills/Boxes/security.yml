@@ -81,3 +81,22 @@
     layers:
       - state: box_security
       - state: forensic
+
+# make this into spray cleaner box
+- type: entity
+  name: space cleaner box
+  parent: BoxCardboard
+  id: BoxSpaceCleaner
+  description: A box of space cleaner bottles.
+  components:
+  - type: Item
+    shape:
+    - 0,0,1,1
+  - type: StorageFill
+    contents:
+    - id: SprayBottleSpaceCleaner
+      amount: 4
+  - type: Sprite
+    layers:
+      - state: box
+      - state: spraybottle

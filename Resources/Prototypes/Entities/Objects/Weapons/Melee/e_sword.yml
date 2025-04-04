@@ -100,7 +100,6 @@
   parent: BaseItem
   abstract: true
   components:
-  - type: EnergySword
   - type: ItemToggle
     # Goobstation start
     soundFailToActivate:
@@ -172,7 +171,6 @@
     enabled: false
     radius: 2
     energy: 2
-    color: white
     netsync: false
   - type: Appearance
   - type: ToggleableLightVisuals # Add support for multiple layers

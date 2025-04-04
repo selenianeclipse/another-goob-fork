@@ -43,6 +43,17 @@
     state: toxinkit
   - type: Item
     heldPrefix: toxinkit
+    
+- type: entity
+  name: ipc repair kit
+  description: "Used to repair IPCs."
+  parent: Medkit
+  id: MedkitIPC
+  components:
+  - type: Sprite
+    state: ipckit
+  - type: Item
+    heldPrefix: ipckit
 
 - type: entity
   name: oxygen deprivation treatment kit

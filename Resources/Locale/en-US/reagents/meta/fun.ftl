@@ -30,3 +30,7 @@ reagent-desc-weh = Pure essence of lizard plush. Makes you Weh!
 
 reagent-name-hew = juice that makes you Hew
 reagent-desc-hew = Pure essence of inversed lizard plush. Makes you Hew!
+
+reagent-name-badsubstance = Hynes' Concoction
+reagent-desc-badsubstance = Quite possibly the most inedible thing you have ever had the misfortune of looking at.
+reagent-physical-desc-atrocious = atrocious.

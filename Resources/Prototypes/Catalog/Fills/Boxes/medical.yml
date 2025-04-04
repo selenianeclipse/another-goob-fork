@@ -123,3 +123,21 @@
     layers:
       - state: box
       - state: vials
+      
+- type: entity
+  name: prescription glasses box
+  parent: BoxCardboard
+  id: BoxGlasses
+  description: A box full of prescription glasses.
+  components:
+  - type: Storage
+    grid:
+    - 0,0,2,2
+  - type: StorageFill
+    contents:
+      - id: ClothingEyesPrescriptionGlasses
+        amount: 5
+  - type: Sprite
+    layers:
+      - state: box
+      - state: glasses

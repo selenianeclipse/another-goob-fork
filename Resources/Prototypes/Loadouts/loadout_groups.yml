@@ -96,19 +96,57 @@
   loadouts:
   - LoadoutSpeciesPocketDoubleNitrogen
   - LoadoutSpeciesPocketDoubleOxygen
+  
 # Councilor
 
 - type: loadoutGroup
-  id: a
-  name: b
+  id: CouncilHead
+  name: loadout-group-council-head
+  minLimit: 0
   loadouts:
-  - C
+  - CouncilGasMask
+  - CouncilCap
 
 - type: loadoutGroup
-  id: a
-  name: b
+  id: CouncilNeck
+  name: loadout-group-council-neck
+  minLimit: 0
   loadouts:
-  - C
+  - CouncilCloak
+  - CouncilScarf
+
+- type: loadoutGroup
+  id: CouncilJumpsuit
+  name: loadout-group-council-jumpsuit
+  loadouts:
+  - CouncilJumpsuit
+  - CouncilJumpsuitAlt
+  - CouncilFormalSuit
+  - CouncilFormalSkirt
+
+- type: loadoutGroup
+  id: CouncilBackpack
+  name: loadout-group-council-backpack
+  loadouts:
+  - CouncilBackpack
+  - CouncilDuffel
+  
+- type: loadoutGroup
+  id: CouncilOuterClothing
+  name: loadout-group-council-outerclothing
+  minLimit: 0
+  loadouts:
+  - CouncilOuterClothingInvis
+  - CouncilWintercoat
+  - CouncilOuterCarapaceClothing
+  
+- type: loadoutGroup
+  id: CouncilShoes
+  name: loadout-group-council-shoes
+  loadouts:
+  - CouncilLaceups
+  - CouncilCombatBoots
+  - CouncilHeels
   
 # Command
 - type: loadoutGroup

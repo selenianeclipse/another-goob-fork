@@ -23,3 +23,56 @@
     steps: 6
     zeroVisible: false
   - type: Appearance
+  
+- type: entity
+  id: MagazinePistolCyanide
+  name: pistol magazine (.45 cyanide)
+  parent: [BaseMagazineMagnum, BaseCentcommContraband]
+  components:
+  - type: Tag
+    tags:
+    - MagazineMagnum
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumCyanide
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: false
+  - type: Appearance
+  
+- type: entity
+  id: MagazinePistolTranquil
+  name: pistol magazine (.45 tranquilizer)
+  parent: [BaseMagazineMagnum, BaseCentcommContraband]
+  components:
+  - type: Tag
+    tags:
+    - MagazineMagnum
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumTranquil
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 6
+    zeroVisible: false
+  - type: Appearance
+

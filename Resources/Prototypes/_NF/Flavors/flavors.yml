@@ -27,3 +27,8 @@
   id: bees
   flavorType: Complex
   description: flavor-complex-bees
+  
+- type: flavor
+  id: terribad
+  flavorType: Complex
+  description: flavor-complex-terribad

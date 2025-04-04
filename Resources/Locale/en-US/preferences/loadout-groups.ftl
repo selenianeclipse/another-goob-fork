@@ -18,6 +18,13 @@ loadout-group-EVA-tank = Species-specific gas tank
 loadout-group-pocket-tank-double = Species-specific double emergency tank in pocket
 loadout-group-survival-mime = Mime Survival Box
 
+loadout-group-council-head = Councilor head
+loadout-group-council-jumpsuit = Councilor jumpsuit
+loadout-group-council-shoes = Councilor shoes
+loadout-group-council-neck = Councilor neck
+loadout-group-council-backpack = Councilor backpack
+loadout-group-council-outerclothing = Councilor outer clothing
+
 # Command
 loadout-group-captain-head = Captain head
 loadout-group-captain-jumpsuit = Captain jumpsuit
