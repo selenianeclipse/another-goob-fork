@@ -46,3 +46,19 @@
         reagents:
         - ReagentId: Fentanyl
           Quantity: 7
+
+- type: entity
+  suffix: SROS
+  parent: PrefilledSyringe
+  id: SyringeSROSSyndicate
+  description: Just in case killing someone wasn't harsh enough. Try ten thousand times.
+  components:
+  - type: Label
+    currentLabel: reagent-name-sros
+  - type: SolutionContainerManager
+    solutions:
+      injector:
+        maxVol: 15
+        reagents:
+        - ReagentId: SROS
+          Quantity: 15

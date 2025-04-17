@@ -616,6 +616,16 @@
     Telecrystal: 10 # goob
   categories:
   - UplinkChemicals
+  
+- type: listing
+  id: UplinkSROS
+  name: uplink-syndicate-sros-injector-name
+  description: uplink-syndicate-sros-injector-desc
+  productEntity: SyringeSROSSyndicate
+  cost:
+    Telecrystal: 35 # goob
+  categories:
+  - UplinkChemicals
 
 
 - type: listing

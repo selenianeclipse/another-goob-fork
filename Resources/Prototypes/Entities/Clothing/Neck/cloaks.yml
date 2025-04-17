@@ -225,7 +225,7 @@
     containers:
       toggleable-clothing: !type:Container {}
   - type: TypingIndicatorClothing
-    proto: attacusfursuit
+    proto: moth
     
 - type: entity
   parent: ClothingNeckBase

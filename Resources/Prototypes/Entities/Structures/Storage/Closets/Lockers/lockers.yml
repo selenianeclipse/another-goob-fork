@@ -528,19 +528,3 @@
     stateDoorOpen: secure_open
     stateDoorClosed: largebunker_door
     
-# im gonna be honest i cannot be fucking bothered rn
-
-- type: entity
-  id: LockerBunkerFilled
-  parent: LockerBunker
-  name: bunker closet
-  suffix: Filled
-  components:
-  - type: Appearance
-  - type: EntityStorageVisuals
-    stateBaseClosed: secure
-    stateDoorOpen: secure_open
-    stateDoorClosed: largebunker_door
-  - type: StorageFill
-    contents:
-    - id: Flash

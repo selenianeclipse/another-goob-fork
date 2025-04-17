@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "my bals / calamity coalesce",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "icon"
+        },
+        {
+            "name": "equipped-EYES",
+            "directions": 4,
+            "delays": [
+                [
+                    0.2,
+                    0.2
+                ],
+                [
+                    0.2,
+                    0.2
+                ],
+                [
+                    0.2,
+                    0.2
+                ],
+                [
+                    0.2,
+                    0.2
+                ]
+            ]
+        }
+    ]
+}

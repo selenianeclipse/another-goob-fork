@@ -484,6 +484,24 @@
 
 - type: entity
   parent: BasePDA
+  id: OutlawPDA
+  name: outlaw PDA
+  description: PDA for the guys that keep ordering bombs. All our food keeps blowing up!
+  components:
+  - type: Pda
+    id: OutlawIDCard
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+       !type:String
+       pda-outlaw
+  - type: PdaBorderColor
+    borderColor: "#e39751"
+  - type: Icon
+    state: pda-outlaw
+
+- type: entity
+  parent: BasePDA
   id: SalvagePDA
   name: salvage PDA
   description: Smells like ash.

@@ -30,7 +30,7 @@
     
 - type: entity
   id: LockerCouncilor
-  name: councilor locker
+  name: councilor's locker
   parent: LockerBaseSecure
   components:
   - type: Appearance
@@ -55,20 +55,3 @@
     stateDoorOpen: generic_open
     stateDoorClosed: bunker_door
     
-# i still cannot be bothered im sorry
-- type: entity
-  id: ClosetWallBunkerFilled
-  parent: ClosetWallBunker
-  name: bunker wall closet
-  suffix: Filled
-  description: "A storage unit packed with an assortment of survival items."
-  components:
-  - type: Appearance
-  - type: EntityStorageVisuals
-    stateBaseClosed: generic
-    stateDoorOpen: generic_open
-    stateDoorClosed: bunker_door
-  - type: StorageFill
-    contents:
-    - id: Flash
-   

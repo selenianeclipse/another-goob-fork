@@ -1,0 +1,20 @@
+- type: entity
+  id: ActionPolymorphJauntSpirit # It just doesn't work # Maybe Light Yagami had a point
+  name: Plane Shift
+  description: Temporarily cross over into the afterlife to phase through walls!
+  components:
+  - type: Magic
+    requiresClothes: false # Goobstation
+    school: Translocation # Goobstation
+  - type: InstantAction
+    useDelay: 25
+    raiseOnUser: true # Goobstation
+    checkCanInteract: false # Goobstation
+    event: !type:PolymorphSpellEvent # Goob edit
+      protoId: Jaunt
+      makeWizard: false # Goobstation
+    itemIconStyle: NoItem
+    icon:
+      sprite: Actions\spiritjaunt.rsi # Goob edit
+      state: spiritjaunt
+      

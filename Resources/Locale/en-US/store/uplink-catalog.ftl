@@ -391,6 +391,9 @@ uplink-syndicate-segway-crate-desc = Be an enemy of the corporation, in style!
 uplink-syndicate-sponge-box-name = Syndicate Sponge Box
 uplink-syndicate-sponge-box-desc = A box containing 6 syndicate sponges disguised as monkey cubes, these cubes turn into a variety of angry wildlife after coming into contact with water.
 
+uplink-syndicate-sros-injector-name = SROS Injector
+uplink-syndicate-sros-injector-desc = Either make yourself immortal, or curse someone to be undying for the rest of their horrid life! Eternal torment! (OOC Note: Lore item. Does not give real immortality. Yet.)
+
 uplink-slipocalypse-clustersoap-name = Slipocalypse Clustersoap
 uplink-slipocalypse-clustersoap-desc = Scatters arounds small pieces of syndicate-brand soap after being thrown, these pieces of soap evaporate after 60 seconds.
 
@@ -469,3 +472,37 @@ uplink-fake-mindshield-desc = A togglable implant capable of mimicking the same 
 
 uplink-beenades-name = Beenades
 uplink-beenades-desc = A non-explosive grenade full of... bees?! NOT THE BEES!!!
+
+
+
+
+# for outlaw
+
+outlaw-doorjack-name = Door Jack
+outlaw-doorjack-desc = A small, ancient device used to forcefully open doors and lockers. Useful when you want to be discreet. And steal the Captain's ID, of course.
+
+outlaw-empgrenade-name = EMP Grenade
+outlaw-empgrenade-desc = A grenade that disrupts electrical systems and disables IPCs. Buy one, get one free!
+
+outlaw-medkit-name = Health Pack
+outlaw-medkit-desc = A reliable medkit consisting of a mini hyperzine injector, a blood pack, saline, a medicated suture and a regenerative mesh.
+
+outlaw-medkitipc-name = Health Pack [IPC]
+outlaw-medkitipc-desc = A reliable medkit consisting of meson glasses, a replacement battery, cables and a welder.
+
+outlaw-medkitevil-name = 'Health' Pack [Lethal]
+outlaw-medkitevil-desc = A reliable toxinkit consisting of one bottle of razorium, one bottle of lead, two syringes, and an anti-toxin injector incase you somehow poison yourself!
+
+outlaw-nocturinebottle-name = Nocturine Bottle
+outlaw-nocturinebottle-desc = The classic Syndicate recipe. Use it to fix someone's insomnia, or spike someone's drink. Up to you!
+
+outlaw-toolbox-name = Outlaw's Toolbox
+outlaw-toolbox-desc = A set of handy tools for when the engineers won't cooperate with you. Or you just feel like dismantling something.
+
+outlaw-teleconversion1-name = Telecrystal Conversion [100 -> 1]
+outlaw-teleconversion2-name = Telecrystal Conversion [500 -> 5]
+outlaw-teleconversion3-name = Telecrystal Conversion [1000 -> 10]
+outlaw-teleconversion4-name = Telecrystal Conversion [1500 -> 15]
+outlaw-teleconversion5-name = Telecrystal Conversion [5000 -> 50]
+outlaw-teleconversion6-name = Telecrystal Conversion [10000 -> 100]
+outlaw-teleconversion-desc = Converts your Spesos into Telecrystals. Do NOT give them to Syndicate members!

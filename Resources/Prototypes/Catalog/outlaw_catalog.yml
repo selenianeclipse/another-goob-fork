@@ -1,0 +1,109 @@
+- type: listing
+  id: OutlawDoorjack
+  name: outlaw-doorjack-name
+  description: outlaw-doorjack-desc
+  productEntity: DoorJack
+  cost:
+    Telecrystal: 15
+  categories:
+  - OutlawDisruption
+  
+- type: listing
+  id: OutlawEMPGrenade
+  name: outlaw-empgrenade-name
+  description: outlaw-empgrenade-desc
+  productEntity: BoxEmpGrenadeOutlaw
+  cost:
+    Telecrystal: 25
+  categories:
+  - OutlawDisruption
+  
+- type: listing
+  id: OutlawMedkit
+  name: outlaw-medkit-name
+  description: outlaw-medkit-desc
+  productEntity: OutlawMedkitFilled
+  cost:
+    Telecrystal: 35
+  categories:
+  - OutlawSupport
+  
+- type: listing
+  id: OutlawMedkitIPC
+  name: outlaw-medkitipc-name
+  description: outlaw-medkitipc-desc
+  productEntity: OutlawMedkitIPCFilled
+  cost:
+    Telecrystal: 35
+  categories:
+  - OutlawSupport
+  
+- type: listing
+  id: OutlawMedkitLethal
+  name: outlaw-medkitevil-name
+  description: outlaw-medkitevil-desc
+  productEntity: OutlawMedkitEvilFilled
+  cost:
+    Telecrystal: 65
+  categories:
+  - OutlawLethal
+
+- type: listing
+  id: SpesosTeleTransaction1
+  name: outlaw-teleconversion1-name
+  description: outlaw-teleconversion-desc
+  productEntity: Telecrystal1
+  cost:
+    Spesos: 100
+  categories:
+  - OutlawConversion
+  
+- type: listing
+  id: SpesosTeleTransaction2
+  name: outlaw-teleconversion2-name
+  description: outlaw-teleconversion-desc
+  productEntity: Telecrystal5
+  cost:
+    Spesos: 500
+  categories:
+  - OutlawConversion
+  
+- type: listing
+  id: SpesosTeleTransaction3
+  name: outlaw-teleconversion3-name
+  description: outlaw-teleconversion-desc
+  productEntity: Telecrystal10
+  cost:
+    Spesos: 1000
+  categories:
+  - OutlawConversion
+  
+- type: listing
+  id: SpesosTeleTransaction4
+  name: outlaw-teleconversion4-name
+  description: outlaw-teleconversion-desc
+  productEntity: Telecrystal15
+  cost:
+    Spesos: 1500
+  categories:
+  - OutlawConversion
+  
+- type: listing
+  id: SpesosTeleTransaction5
+  name: outlaw-teleconversion5-name
+  description: outlaw-teleconversion-desc
+  productEntity: Telecrystal50
+  cost:
+    Spesos: 5000
+  categories:
+  - OutlawConversion
+  
+- type: listing
+  id: SpesosTeleTransaction6
+  name: outlaw-teleconversion6-name
+  description: outlaw-teleconversion-desc
+  productEntity: Telecrystal
+  cost:
+    Spesos: 10000
+  categories:
+  - OutlawConversion

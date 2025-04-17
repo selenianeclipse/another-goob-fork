@@ -111,3 +111,13 @@
     heldPrefix: blackkit
     size: Normal
 
+- type: entity
+  name: outlaw medical kit
+  description: "For nefarious purposes. Like healing people! Or robots."
+  parent: Medkit
+  id: MedkitOutlaw
+  components:
+  - type: Sprite
+    state: outlawkit
+  - type: Item
+    heldPrefix: outlawkit

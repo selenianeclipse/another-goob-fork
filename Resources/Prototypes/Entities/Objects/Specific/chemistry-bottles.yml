@@ -466,4 +466,20 @@
         reagents:
           - ReagentId: NulliferToxin
             Quantity: 30
+            
+- type: entity
+  id: RazoriumChemistryBottle
+  suffix: razorium
+  parent: BaseChemistryBottleFilled
+  components:
+  - type: Label
+    currentLabel: reagent-name-razorium
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+          - ReagentId: Razorium
+            Quantity: 30
+
 

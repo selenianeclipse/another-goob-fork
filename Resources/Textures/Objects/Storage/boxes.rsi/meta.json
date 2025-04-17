@@ -14,7 +14,46 @@
             "name": "bodybags"
         },
         {
+            "name": "waterjug"
+        },
+        {
+            "name": "rations"
+        },
+        {
+            "name": "brownies"
+        },
+        {
+            "name": "outlawbox"
+        },
+        {
+            "name": "empgrenade"
+        },
+        {
             "name": "clown"
+        },
+        {
+            "name": "battery"
+        },
+        {
+            "name": "medipenburn"
+        },
+        {
+            "name": "medipenrad"
+        },
+        {
+            "name": "medipenbrute"
+        },
+        {
+            "name": "medipenpoison"
+        },
+        {
+            "name": "medipenairloss"
+        },
+        {
+            "name": "box_medical"
+        },
+        {
+            "name": "secrestraints"
         },
         {
             "name": "candy"

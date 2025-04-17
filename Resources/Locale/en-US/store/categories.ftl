@@ -24,3 +24,11 @@ store-caregory-spellbook-utility = Utility Spells
 store-caregory-spellbook-equipment = Wizard Equipment
 store-caregory-spellbook-events = Event Spells
 
+# Outlaw
+
+store-category-outlaw-lethal = Lethal
+store-category-outlaw-disruption = Disruption
+store-category-outlaw-support = Support
+store-category-outlaw-wearables = Wearables
+store-category-outlaw-conversion = Conversion
+store-category-outlaw-pointless = Pointless

@@ -6,10 +6,10 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: CentralCommand
-      time: 3600000  #1000 hours # its not like we actually use role timers lmao. if anyone actually wants to fork this role i suggest more like 50 hours like nanorep or making it admin only lmao
+      time: 3600000  #1000 hours # its not like we actually use role timers lmao. if anyone actually wants to fork this role i suggest more like 100 hours or making it admin only lmao
   startingGear: CouncilGear
   icon: "JobIconNanotrasen"
-  supervisors: job-supervisors-none # Goobstation
+  supervisors: job-supervisors-none
   joinNotifyCrew: true
   canBeAntag: false
   accessGroups:

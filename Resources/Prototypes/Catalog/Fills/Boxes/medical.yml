@@ -10,7 +10,7 @@
         amount: 6
   - type: Sprite
     layers:
-      - state: box
+      - state: box_medical
       - state: syringe
 
 - type: entity
@@ -25,7 +25,7 @@
         amount: 9
   - type: Sprite
     layers:
-      - state: box
+      - state: box_medical
       - state: pillbox
 
 - type: entity
@@ -40,7 +40,7 @@
         amount: 6
   - type: Sprite
     layers:
-      - state: box
+      - state: box_medical
       - state: bottle
 
 - type: entity
@@ -55,7 +55,7 @@
         amount: 4
   - type: Sprite
     layers:
-      - state: box
+      - state: box_medical
       - state: sterile
 
 - type: entity
@@ -70,7 +70,7 @@
         amount: 4
   - type: Sprite
     layers:
-      - state: box
+      - state: box_medical
       - state: latex
 
 - type: entity
@@ -85,7 +85,7 @@
         amount: 4
   - type: Sprite
     layers:
-      - state: box
+      - state: box_medical
       - state: nitrile
 
 - type: entity
@@ -100,7 +100,7 @@
         amount: 4
   - type: Sprite
     layers:
-      - state: box
+      - state: box_medical
       - state: bodybags
     whitelist:
       tags:
@@ -121,7 +121,7 @@
         amount: 6
   - type: Sprite
     layers:
-      - state: box
+      - state: box_medical
       - state: vials
       
 - type: entity
@@ -139,5 +139,162 @@
         amount: 5
   - type: Sprite
     layers:
-      - state: box
+      - state: box_medical
       - state: glasses
+      
+- type: entity
+  name: airloss medipen box
+  parent: BoxCardboard
+  id: BoxAirlossMediBox
+  description: A box filled with airloss medipens.
+  components:
+  - type: Sprite
+    layers:
+      - state: box_medical
+      - state: medipenairloss
+  - type: StorageFill
+    contents:
+      - id: AirlossAutoInjector
+        prob: 0.9
+      - id: AirlossAutoInjector
+        prob: 0.5
+      - id: AirlossAutoInjector
+        prob: 0.5
+      - id: AirlossAutoInjector
+        prob: 0.5
+      - id: AirlossAutoInjector
+        prob: 0.2
+      - id: AirlossAutoInjector
+        prob: 0.2
+      - id: AirlossAutoInjector
+        prob: 0.2
+      - id: AirlossAutoInjector
+        prob: 0.1
+      - id: AirlossAutoInjector
+        prob: 0.1
+        
+- type: entity
+  name: brute medipen box
+  parent: BoxCardboard
+  id: BoxBruteMediBox
+  description: A box filled with brute medipens.
+  components:
+  - type: Sprite
+    layers:
+      - state: box_medical
+      - state: medipenbrute
+  - type: StorageFill
+    contents:
+      - id: BruteAutoInjector
+        prob: 0.9
+      - id: BruteAutoInjector
+        prob: 0.5
+      - id: BruteAutoInjector
+        prob: 0.5
+      - id: BruteAutoInjector
+        prob: 0.5
+      - id: BruteAutoInjector
+        prob: 0.2
+      - id: BruteAutoInjector
+        prob: 0.2
+      - id: BruteAutoInjector
+        prob: 0.2
+      - id: BruteAutoInjector
+        prob: 0.1
+      - id: BruteAutoInjector
+        prob: 0.1
+
+- type: entity
+  name: poison medipen box
+  parent: BoxCardboard
+  id: BoxPoisonMediBox
+  description: A box filled with poison medipens.
+  components:
+  - type: Sprite
+    layers:
+      - state: box_medical
+      - state: medipenpoison
+  - type: StorageFill
+    contents:
+      - id: AntiPoisonMedipen
+        prob: 0.9
+      - id: AntiPoisonMedipen
+        prob: 0.5
+      - id: AntiPoisonMedipen
+        prob: 0.5
+      - id: AntiPoisonMedipen
+        prob: 0.5
+      - id: AntiPoisonMedipen
+        prob: 0.2
+      - id: AntiPoisonMedipen
+        prob: 0.2
+      - id: AntiPoisonMedipen
+        prob: 0.2
+      - id: AntiPoisonMedipen
+        prob: 0.1
+      - id: AntiPoisonMedipen
+        prob: 0.1
+
+- type: entity
+  name: rad medipen box
+  parent: BoxCardboard
+  id: BoxRadMediBox
+  description: A box filled with rad medipens.
+  components:
+  - type: Sprite
+    layers:
+      - state: box_medical
+      - state: medipenrad
+  - type: StorageFill
+    contents:
+      - id: RadAutoInjector
+        prob: 0.9
+      - id: RadAutoInjector
+        prob: 0.5
+      - id: RadAutoInjector
+        prob: 0.5
+      - id: RadAutoInjector
+        prob: 0.5
+      - id: RadAutoInjector
+        prob: 0.2
+      - id: RadAutoInjector
+        prob: 0.2
+      - id: RadAutoInjector
+        prob: 0.2
+      - id: RadAutoInjector
+        prob: 0.1
+      - id: RadAutoInjector
+        prob: 0.1
+
+- type: entity
+  name: burn medipen box
+  parent: BoxCardboard
+  id: BoxBurnMediBox
+  description: A box filled with burn medipens.
+  components:
+  - type: Sprite
+    layers:
+      - state: box_medical
+      - state: medipenburn
+  - type: StorageFill
+    contents:
+      - id: BurnAutoInjector
+        prob: 0.9
+      - id: BurnAutoInjector
+        prob: 0.5
+      - id: BurnAutoInjector
+        prob: 0.5
+      - id: BurnAutoInjector
+        prob: 0.5
+      - id: BurnAutoInjector
+        prob: 0.2
+      - id: BurnAutoInjector
+        prob: 0.2
+      - id: BurnAutoInjector
+        prob: 0.2
+      - id: BurnAutoInjector
+        prob: 0.1
+      - id: BurnAutoInjector
+        prob: 0.1
+
+

@@ -7,6 +7,7 @@
   - CargoTechnician
   - Quartermaster
   - SalvageSpecialist
+  - Outlaw
 
 - type: department
   id: Civilian

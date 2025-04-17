@@ -88,6 +88,18 @@
     layers:
       - state: green
       - state: passenger
+      
+- type: entity
+  id: SpawnPointOutlaw
+  parent: SpawnPointJobBase
+  name: outlaw
+  components:
+  - type: SpawnPoint
+    job_id: Outlaw
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger # placeholder
 
 - type: entity
   id: SpawnPointTechnicalAssistant

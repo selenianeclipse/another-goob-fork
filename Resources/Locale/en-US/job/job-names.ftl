@@ -34,6 +34,7 @@ job-name-maid = Maid
 job-name-chaplain = Chaplain
 job-name-botanist = Botanist
 job-name-bartender = Bartender
+job-name-outlaw = Outlaw
 ## goob edit - epic passengers
 job-name-passenger = Assistant
 job-name-salvagespec = Salvage Specialist

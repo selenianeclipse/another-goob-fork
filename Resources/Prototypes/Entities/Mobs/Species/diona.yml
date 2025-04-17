@@ -102,6 +102,9 @@
     actionPrototype: DionaGibAction
     allowedStates:
     - Dead
+#  - type: ActionsProvider # this was for bug testing ignore it
+#   actions:
+#   - ActionPolymorphJauntSpirit
   - type: Inventory
     templateId: diona
     femaleDisplacements:

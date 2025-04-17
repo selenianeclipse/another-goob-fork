@@ -21,6 +21,7 @@ job-description-doctor = Diagnose and heal crewmembers through medicinal chemica
 job-description-engineer = Keep the station's main engine & solars active, optimize the power network, and make emergency repairs using your hardsuit in spaced areas.
 job-description-ertchaplain = Ensure the station crew's last rights are taken care of.
 job-description-ertengineer = Ensure that the station has power and clean air.
+job-description-outlaw = Distribute contraband from your stolen uplink to the crew for Spesos. Buy bigger and more valuable contraband. Don't get caught by Security. Repeat.
 job-description-ertjanitor = Ensure that the station is properly cleaned--for morale.
 job-description-ertleader = Lead the Emergency Response Team in dealing with threats to Nanotrasen assets.
 job-description-ertmedic = Ensure that the crew of the station is kept alive and healthy.

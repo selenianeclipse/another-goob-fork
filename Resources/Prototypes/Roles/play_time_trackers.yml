@@ -36,6 +36,9 @@
 
 - type: playTimeTracker
   id: JobChef
+  
+- type: playTimeTracker
+  id: JobOutlaw
 
 - type: playTimeTracker
   id: JobChemist

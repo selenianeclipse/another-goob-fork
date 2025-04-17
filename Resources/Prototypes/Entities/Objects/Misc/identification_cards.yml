@@ -207,6 +207,18 @@
     - state: idcargotechnician
   - type: PresetIdCard
     job: CargoTechnician
+    
+- type: entity
+  parent: IDCardStandard
+  id: OutlawIDCard
+  name: outlaw ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idoutlaw
+  - type: PresetIdCard
+    job: Outlaw
 
 - type: entity
   parent: IDCardStandard

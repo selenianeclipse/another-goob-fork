@@ -113,15 +113,42 @@
       - id: StimpackMini
         amount: 6
 
-# make this into ipc kit + give it custom sprite that is Yellow (note you need to make the empty box too lmao. maybe add a welding mask and remove 1 of the batteries)
 - type: entity
-  id: MedkitIPCFilled
+  id: OutlawMedkitIPCFilled
+  name: outlaw medical kit [IPC]
   suffix: Filled
-  parent: MedkitIPC
+  parent: MedkitOutlaw
   components:
   - type: StorageFill
     contents:
-      - id: PowerCellMedium
-      - id: ClothingHeadHatWelding
+      - id: PowerCellHigh
+      - id: ClothingEyesGlassesMeson
       - id: Welder
       - id: CableApcStack
+      
+- type: entity
+  id: OutlawMedkitFilled
+  suffix: Filled
+  parent: MedkitOutlaw
+  components:
+  - type: StorageFill
+    contents:
+      - id: StimpackMini
+      - id: Bloodpack
+      - id: SyringeSaline
+      - id: MedicatedSuture
+      - id: RegenerativeMesh
+      
+- type: entity
+  id: OutlawMedkitEvilFilled
+  name: outlaw medical kit [Lethal]
+  suffix: Filled
+  parent: MedkitOutlaw
+  components:
+  - type: StorageFill
+    contents:
+      - id: RazoriumChemistryBottle
+      - id: LeadChemistryBottle
+      - id: Syringe
+      - id: Syringe
+      - id: AntiPoisonMedipen

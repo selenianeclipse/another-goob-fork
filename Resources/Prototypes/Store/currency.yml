@@ -4,6 +4,13 @@
   cash:
     1: Telecrystal1
   canWithdraw: true
+  
+- type: currency
+  id: Spesos
+  displayName: store-currency-display-spesos
+  cash:
+    1: SpaceCash
+  canWithdraw: true
 
 - type: currency
   id: StolenEssence

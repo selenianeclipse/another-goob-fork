@@ -11,5 +11,6 @@ store-withdraw-button-ui = Withdraw {$currency}
 store-ui-button-out-of-stock = {""} (Out of Stock)
 store-not-account-owner = This {$store} is not bound to you!
 
+store-preset-name-outlaw = Radio
 store-preset-name-uplink = Uplink
 store-preset-name-spellbook = Spellbook
